@@ -1790,7 +1790,9 @@ static VSDrawingManager * _sharedDrawingManager_ = nil;
             [appDelegate.detailViewController.detailItem bringSubviewToFront:[VSDrawingManager sharedDrawingManager].lastProcessBox];
         
     }
-    /*
+    
+    
+    /*t
      for(UIView * view in [appDelegate.detailViewController.detailItem subviews])
      {
      if([view isKindOfClass:[VSProcessSymbol class]])
